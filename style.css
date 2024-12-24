@@ -95,3 +95,28 @@ button{
     }
     
 }
+
+@media (max-width:760px) {
+    .container{
+        width: 300px;
+    }
+
+    button{
+        padding: 8px 16px;
+    }
+
+    .toast{
+        width: 250px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .toast i{
+        font-size: 20px;
+    }
+
+    .toast::after{
+        height: 3px;
+    }
+    
+}
